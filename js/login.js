@@ -18,7 +18,7 @@ $(".login-form").addEventListener("submit", function (e) {
 
   if (user) {
     window.localStorage.setItem("user", JSON.stringify(user));
-    window.location.replace("./index.html");
+    window.location.replace("./home.html");
   } else {
     $(".xato").classList.remove("d-none");
   }
